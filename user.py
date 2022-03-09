@@ -2,9 +2,7 @@ from bank_account import BankAccount
 
 
 """
-A class for people with bank accounts from the BankAccount class. I tried to
-maintain all the functionality while also implementing the "Sensei Bonus"
-problem, and it does work, but I have a feeling it would break pretty easily.
+A class for people with bank accounts from the BankAccount class.
 """
 class User:
     def __init__(self, name, email, first_account_name, initial_deposit, interest_rate = 0.005):
